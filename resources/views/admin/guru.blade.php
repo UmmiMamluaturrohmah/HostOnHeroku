@@ -13,7 +13,8 @@
             <table class="table table-bordered table-hover table-striped">
                 <thead class="text-center">
                 <tr>
-                     <th><small>Nama</small></th>
+		    <th><small>No</small></th>
+                    <th><small>Nama</small></th>
                     <th><small>Nilai Agama</small></th>
                     <th><small>Nilai Matematika</small></th>
                     <th><small>Nilai Indonesia</small></th>
@@ -28,6 +29,7 @@
                 <tbody class="text-center">
                     @foreach ($nilai as $data)
                         <tr>
+ 			    <td>{{ $loop->iteration }}</td>
                             <td><small>{{ $data->name }}</small></td>
                             <td><small>{{ $data->nilaiagama }}</small></td>
                             <td><small>{{ $data->nilaimtk }}</small></td>
