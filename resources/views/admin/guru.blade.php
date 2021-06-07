@@ -51,10 +51,6 @@
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
-            <a href="/nilai/create" class="btn-sm btn btn-info">
-                <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                Tambah Nilai
-            </a>
         </div>
         <!-- /.card-footer-->
     </div>
