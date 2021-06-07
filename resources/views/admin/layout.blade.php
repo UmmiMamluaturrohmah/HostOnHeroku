@@ -118,7 +118,7 @@
                   <a href="/logout" class="nav-link" style="color:black;">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
                     <p style="color:black;">
-                      Sign Out
+                      Log Out
                     </p>
                   </a>
                 </li>
