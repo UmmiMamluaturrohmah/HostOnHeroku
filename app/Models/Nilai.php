@@ -9,6 +9,6 @@ class Nilai extends Model
 {
     use HasFactory;
     protected $table = "nilai";
-    protected $fillable = ["user_id","nilaiagama","nilaimtk","nilaiindo","nilaieng","nilaiipa","nilaiips","nilaipkn","nilaiakhir","grade"];
+    protected $fillable = ["id","user_id","nilaiagama","nilaimtk","nilaiindo","nilaieng","nilaiipa","nilaiips","nilaipkn","nilaiakhir","grade"];
 
 }
