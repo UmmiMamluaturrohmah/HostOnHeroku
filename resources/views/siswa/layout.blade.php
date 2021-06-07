@@ -88,7 +88,7 @@
           <li class="nav-item">
               <a href="/logout" class="nav-link">
                 <i class="nav-icon fas fa-sign-out-alt"  style="color:black;"></i>
-                <p style="color:black;">Sign Out</p>
+                <p style="color:black;">Log Out</p>
               </a>
            </li>
         </ul>
@@ -104,8 +104,6 @@
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-        
-
         </div>
       </div><!-- /.container-fluid -->
     </section>
